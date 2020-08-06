@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HybDrivenFrameworkExampleV1]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="MSEdge"/>
+  <test name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.hybdrivenframeworkexampleV1.testcases.TC_loginDDT_002">
+        <methods>
+          <include name="loginTest" invocation-numbers="1 2 3 4 5 6 7 8 9 10 11"/>
+          <include name="setup"/>
+          <include name="SetupClosed"/>
+          <include name="setup"/>
+          <include name="SetupClosed"/>
+        </methods>
+      </class> <!-- com.hybdrivenframeworkexampleV1.testcases.TC_loginDDT_002 -->
+      <class name="com.hybdrivenframeworkexampleV1.testcases.TC_HybDrivenFrameworkExampleV1_001">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="SetupClosed"/>
+          <include name="setup"/>
+          <include name="SetupClosed"/>
+        </methods>
+      </class> <!-- com.hybdrivenframeworkexampleV1.testcases.TC_HybDrivenFrameworkExampleV1_001 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)">
+    <parameter name="browser" value="MSEdge"/>
+    <classes>
+      <class name="com.hybdrivenframeworkexampleV1.testcases.TC_loginDDT_002">
+        <methods>
+          <include name="loginTest" invocation-numbers="1 2 3 4 5 6 7 8 9 10 11"/>
+          <include name="setup"/>
+          <include name="SetupClosed"/>
+          <include name="setup"/>
+          <include name="SetupClosed"/>
+        </methods>
+      </class> <!-- com.hybdrivenframeworkexampleV1.testcases.TC_loginDDT_002 -->
+      <class name="com.hybdrivenframeworkexampleV1.testcases.TC_HybDrivenFrameworkExampleV1_001">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="SetupClosed"/>
+          <include name="setup"/>
+          <include name="SetupClosed"/>
+        </methods>
+      </class> <!-- com.hybdrivenframeworkexampleV1.testcases.TC_HybDrivenFrameworkExampleV1_001 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [HybDrivenFrameworkExampleV1] -->

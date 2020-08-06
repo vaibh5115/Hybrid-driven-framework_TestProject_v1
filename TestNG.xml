@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HybDrivenFrameworkExampleV1">
+
+<test name="Test1">
+	<parameter name="browser" value="chrome"></parameter>
+	<classes>
+		<class name="com.hybdrivenframeworkexampleV1.testcases.TC_HybDrivenFrameworkExampleV1_001"/>
+		<!--  <class name="com.hybdrivenframeworkexampleV1.testcases.TC_loginDDT_002"></class>-->
+	</classes>
+
+</test>
+
+<!--  
+<test name="Test2">
+	<parameter name="browser" value="MSEdge"></parameter>
+	<classes>
+		<class name="com.hybdrivenframeworkexampleV1.testcases.TC_HybDrivenFrameworkExampleV1_001"/>
+		<class name="com.hybdrivenframeworkexampleV1.testcases.TC_loginDDT_002"></class>
+	</classes>
+
+</test>
+-->
+ </suite>
